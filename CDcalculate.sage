@@ -510,7 +510,6 @@ def calculate_general_formula(M):
         # I vincoli lessicografici e di range sono già garantiti
         w_val = compute_W_formula(alpha, beta, a, b, n, memo)
         term3_sum += mu_val * w_val
-        #print(f"{alpha, beta, a, b, w_val}")
 
     total_index = term1 + term2_sum - term3_sum
     return total_index
